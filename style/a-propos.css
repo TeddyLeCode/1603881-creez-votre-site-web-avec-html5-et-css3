@@ -26,8 +26,11 @@
 table {
   color: white;
   text-align: center;
-  width: 100%;
+  width: 150%;
   border-collapse: collapse;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 td,
